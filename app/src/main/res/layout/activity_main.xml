@@ -19,7 +19,8 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#3498db"
         android:layout_weight="1"
-        android:layout_marginBottom="5dp">
+        android:layout_marginBottom="5dp"
+        android:id="@+id/weightBtn">
 
         <TextView
             android:text="Weight Lifting"
@@ -99,7 +100,8 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#FF5722"
         android:layout_weight="1"
-        android:layout_marginBottom="5dp">
+        android:layout_marginBottom="5dp"
+        android:id="@+id/yogaBtn">
 
         <TextView
             android:text="Yoga"
@@ -179,7 +181,8 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="#52ad56"
         android:layout_weight="1"
-        android:layout_marginBottom="5dp">
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cardioBtn">
 
         <TextView
             android:text="Cardio"
