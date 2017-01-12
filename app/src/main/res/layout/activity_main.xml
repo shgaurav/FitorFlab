@@ -251,8 +251,8 @@
             android:minHeight="198dp"
             android:scaleX="0.8"
             android:scaleY="0.8"
-            android:layout_above="@+id/textView3"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView2" />
 
     </RelativeLayout>
 
