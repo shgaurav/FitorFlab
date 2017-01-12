@@ -11,7 +11,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.gaurav.fitorflab.DetailsActivity"
-    android:background="@android:color/holo_blue_dark">
+    android:background="#42a5f5"
+    android:animateLayoutChanges="false">
 
     <TextView
         android:text="Weight Lifting"
@@ -31,16 +32,18 @@
         android:scaleX="0.8"
         android:scaleY="0.8"
         android:paddingTop="15dp"
-        android:elevation="1dp" />
+        android:elevation="0dp"
+        android:paddingStart="5dp" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="@color/colorPrimary"
-        android:gravity="center_horizontal">
+        android:backgroundTint="#20000000"
+        android:gravity="center_horizontal"
+        android:id="@+id/mainBG">
 
         <TextView
             android:text="Mark it complete!"
